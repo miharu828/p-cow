@@ -5,14 +5,11 @@ body{
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-
-
-
 .head img {
     width: 4vw;
     text-align: center;
     position: relative;
-    top: 8vh;
+    top: 15vh;
     left: 46vw;
 }
 

@@ -6,8 +6,15 @@ body{
 }
 
 
-.head img{
-    width:20vw;}
+
+
+.head img {
+    width: 4vw;
+    text-align: center;
+    position: relative;
+    top: 8vh;
+    left: 46vw;
+}
 
 nav{
   text-align: center;
@@ -46,12 +53,12 @@ nav{
 
    }
 
-.title{
+.title {
     font-size: 1.5em;
     text-align: center;
     position: absolute;
-    top:17%;
-    left:44%;
+    top: 17%;
+    left: 42%;
     z-index: 2;
     font-weight: bold;
     letter-spacing: 0.3em;
@@ -63,36 +70,34 @@ nav{
     margin-top:6%;
     margin-left: 12%;
 }
-.white{
-    color:white;
+
+.white {
+    color: white;
     background-color: white;
-    width:70%;
-    height:13%;
+    width: 70%;
+    height: 13%;
     text-align: center;
     position: absolute;
-    top:0%;
-    left:5%;
+    top: 7%;
+    left: 5%;
 }
 
-.main video{
-    
+.main video {
     text-align: center;
     width: 65%;
-    margin-bottom:10%;
-    margin-top:2%;
+    margin-bottom: 10%;
+    margin-top: 6%;
     margin-left: 10%;
-    
-    
+
 }
 
-.main img{
-    
+.main img {
     text-align: center;
     width: 83%;
     height: 70%;
     position: absolute;
-    right:16%;
-    top:12%;
+    right: 16%;
+    top: 19%;
 }
 
 

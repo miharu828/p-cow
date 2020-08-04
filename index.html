@@ -22,7 +22,27 @@
 <body>
   
 <div class="header">aaa</div>
-<div class="head"><a href="https://miharu828.github.io/portfolio"><img src="img/home-run.png"></a></div>
+ <div id="navArea">
+
+      <nav>
+        <div class="inner">
+          <ul>
+            <li><a href="https://miharu828.github.io/portfolio">Home</a></li>
+            <li><a href="https://miharu828.github.io/aboutme">About me</a></li>
+            <li><a href="https://miharu828.github.io/contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+     
+      
+        <div class="toggle_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+        <div id="mask"></div>
+      
      
  <div class="title">乳業サイト</div>
 <div class="main">
@@ -60,4 +80,25 @@
 <div class="footer">
     Sakashita Miharu
 </div>
-
+   
+<script>
+  (function($) {
+var $nav   = $('#navArea');
+var $btn   = $('.toggle_btn');
+var $mask  = $('#mask');
+var open   = 'open'; // class
+// menu open close
+$btn.on( 'click', function() {
+if ( ! $nav.hasClass( open ) ) {
+$nav.addClass( open );
+} else {
+$nav.removeClass( open );
+}
+});
+// mask close
+$mask.on('click', function() {
+$nav.removeClass( open );
+});
+} )(jQuery);
+</script>
+</body>
